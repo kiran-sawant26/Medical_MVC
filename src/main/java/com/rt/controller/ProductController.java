@@ -51,7 +51,7 @@ public class ProductController {
 	    model.addAttribute("pageSize", size);
 
 	    return "allProduct";
-	}
+	}   
 
 
 	@GetMapping("/editProduct")
